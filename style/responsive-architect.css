@@ -41,6 +41,15 @@
         position: static;
         max-width: 300px;
     }
+
+    footer{
+        margin: 20px 20px;
+    }
+
+    footer > p{
+        padding: 10px;
+
+    }
 }
 
 /* MEDIUM DEVICES */
@@ -78,6 +87,20 @@
         position: static;
         max-width: 300px;
     }
+
+    /* footer {
+        border-radius: 8px;
+        background: #FFF4E7;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+    
+    footer>p {
+        color: var(--Dark-02, #424242);
+        text-align: center;
+        font-size: 1.25rem;
+        padding: 30px 250px;
+    } */
     
 
 }

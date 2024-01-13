@@ -145,7 +145,7 @@ main {
     margin-bottom: 20px;
 }
 
-.feature-img img{
+.feature-img img {
     height: 90%;
     padding-left: 90px;
 }
@@ -162,11 +162,12 @@ main {
     margin-top: -100px;
 }
 
-.ten-year-badge h2{
+.ten-year-badge h2 {
     font-size: 4rem;
     margin: 0;
 }
-.ten-year-badge p{
+
+.ten-year-badge p {
     font-size: 1.25rem;
     margin: 0;
 }
@@ -231,4 +232,19 @@ main {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+}
+
+/* FOOTER SECTION */
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+footer>p {
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 30px 250px;
 }
