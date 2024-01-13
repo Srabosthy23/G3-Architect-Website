@@ -20,6 +20,14 @@
         flex-direction: column;
         gap: 10px;
     }
+    .sponsor{
+        margin: 20px;
+    }
+    .sponsor-img{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
 /* MEDIUM DEVICES */
@@ -29,6 +37,20 @@
     }    
     .team-container{
         flex-direction: column;
+    }
+    .facts{
+        margin: 50px;
+    }
+    .sponsor{
+        margin: 50px;
+    }
+    .sponsor-img{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .sponsor-img > img{
+        width: 165px;
     }
 
 }
