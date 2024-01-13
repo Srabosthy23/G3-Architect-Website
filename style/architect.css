@@ -122,7 +122,7 @@ main {
 .feature {
     display: flex;
     margin-top: 100px;
-    gap: 100px;
+    gap: 50px;
 }
 
 .feature-title {
@@ -145,16 +145,30 @@ main {
     margin-bottom: 20px;
 }
 
+.feature-img img{
+    height: 90%;
+    padding-left: 90px;
+}
+
 .ten-year-badge {
-    padding: 45px 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-radius: 8px;
     background: #FF900E;
     width: 342px;
     color: #FFF;
     text-align: center;
+    position: relative;
+    margin-top: -100px;
 }
+
 .ten-year-badge h2{
     font-size: 4rem;
+    margin: 0;
+}
+.ten-year-badge p{
+    font-size: 1.25rem;
+    margin: 0;
 }
 
 /* FACT SECTION STYLE */

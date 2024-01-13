@@ -28,6 +28,19 @@
         align-items: center;
         gap: 10px;
     }
+    .feature{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .feature-img img{
+        width: 100%;
+        padding-left: 0;
+    }
+    .ten-year-badge{
+        margin: 0;
+        position: static;
+        max-width: 300px;
+    }
 }
 
 /* MEDIUM DEVICES */
@@ -52,5 +65,19 @@
     .sponsor-img > img{
         width: 165px;
     }
+    .feature{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .feature-img img{
+        width: 100%;
+        padding-left: 0;
+    }
+    .ten-year-badge{
+        margin: 0;
+        position: static;
+        max-width: 300px;
+    }
+    
 
 }
