@@ -77,71 +77,83 @@ nav li a {
 }
 
 /* MAIN SECTION STYLES */
+
 /* TEAM SECTION */
-main{
+main {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.team-container{
+.team-container {
     display: flex;
     align-items: center;
 }
 
-.team-img{
+.team-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
-.team-content{
+.team-content {
     margin-left: 70px;
     margin-right: 30px;
 }
 
-.team-container .quick{
+.team-container .quick {
     color: #727272;
     font-size: 2.8rem;
     font-weight: 500;
 }
 
-.team-container .of-our{
+.team-container .of-our {
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
 }
 
-.team-container .text-feature{
+.team-container .text-feature {
     color: #FF900E;
     font-size: 2.8rem;
     font-weight: 700;
 }
-/* RESPONSIVE MEDIA QUERIES */
-/* SMALL DEVICE */
-@media screen and (max-width: 576px) {
-    nav{
-        flex-direction: column;
-    }
-    header{
-        padding: 20px;
-    }
-    .team-container{
-        flex-direction: column;
-    }
-    .team-img{
-        grid-template-columns: 1fr;
-    }
-    .team-content{
-        margin: 0 20px;
-    }
+
+/* FEATURES SECTION STYLE */
+
+/* FACT SECTION STYLE */
+.facts>.fact-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
-/* MEDIUM DEVICES */
-@media screen and (min-width: 576px) and (max-width: 960px) {
-    header{
-        padding:50px;
-    }    
-    .team-container{
-        flex-direction: column;
-    }
+.facts .fact-description {
+    color: #727272;
+}
+
+.fact-card-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fact-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+}
+
+.fact-card-container .card-stat{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fact-card-container .card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
